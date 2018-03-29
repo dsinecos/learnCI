@@ -13,6 +13,7 @@ describe("Testing server", function () {
             .end(function (err, res) {
                 expect(res.status).to.equal(200);
                 done();
+                
             })
     })
 })
